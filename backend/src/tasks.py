@@ -1,5 +1,4 @@
 import asyncio
-import os
 from pathlib import Path
 from celery import Celery
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
