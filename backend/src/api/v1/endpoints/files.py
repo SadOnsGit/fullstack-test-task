@@ -8,7 +8,7 @@ from src.core.database import get_session
 from src.schemas.alert import AlertItem
 from src.schemas.file import FileItem, FileUpdate
 from src.services.file import create_file, delete_file, get_file, list_alerts, list_files, update_file
-from src.tasks import scan_file_for_threats
+from src.tasks.scan import scan_file_for_threats
 
 router = APIRouter()
 
